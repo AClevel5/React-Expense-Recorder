@@ -1,12 +1,12 @@
-import React from "react";
+import "./ExpenseItem.css";
 
 const ExpenseItem = () => {
   return (
-    <div>
+    <div className="expense-item">
       <div>1/17/2023</div>
-      <div>
+      <div className="expense-item__description">
         <h2>Car Insurance</h2>
-        <div>120</div>
+        <div className="expense-item__price">120</div>
       </div>
     </div>
   );
